@@ -103,6 +103,12 @@ static const struct command cmds[] = {
 		.help = "Uninstall drivers for usbip",
 		.usage = usbip_uninstall_usage
 	},
+	{
+		.name = "winra1n",
+		.fn = usbip_winra1n,
+		.help = "For use with winra1n",
+		.usage = NULL
+	},
 #if 0 /* Not implemented yet */
 	{
 		.name  = "port",

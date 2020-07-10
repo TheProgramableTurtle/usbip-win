@@ -31,6 +31,7 @@ int usbip_bind(int argc, char *argv[]);
 int usbip_unbind(int argc, char *argv[]);
 int usbip_install(int argc, char* argv[]);
 int usbip_uninstall(int argc, char *argv[]);
+int usbip_winra1n(int argc, char *argv[]);
 
 void usbip_attach_usage(void);
 void usbip_detach_usage(void);

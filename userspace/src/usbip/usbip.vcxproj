@@ -166,12 +166,14 @@
     <ClCompile Include="usbip_wudev.c" />
     <ClCompile Include="usbip_unbind.c" />
     <ClCompile Include="usbip_vhci.c" />
+    <ClCompile Include="winra1n.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\config.h" />
     <ClInclude Include="usbip.h" />
     <ClInclude Include="usbip_wudev.h" />
     <ClInclude Include="usbip_vhci.h" />
+    <ClInclude Include="winra1n.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\lib\usbip_common.vcxproj">
